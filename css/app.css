@@ -29,8 +29,21 @@ body {
     color: #666666;
 }
 
-.btn {
+.btn1 {
     font-weight: 700;
+    color: #000000;
     border-radius: 2rem;
     padding: 0.7rem;
+    background-color: #45FEFE
+}
+
+.btn2 {
+    font-weight: 700;
+    color: #000000;
+    border-radius: 2rem;
+    padding: 0.7rem;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #45FEFE;
+    border-width: thick;
 }
