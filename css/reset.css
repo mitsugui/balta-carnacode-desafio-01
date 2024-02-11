@@ -1,5 +1,4 @@
 /* Reset CSS */
-
 html,
 body,
 div,
@@ -130,3 +129,20 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+button {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  /* Remover o estilo de foco padrão nos botões */
+  button:focus {
+    outline: none;
+  }
