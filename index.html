@@ -1,32 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="css/app.css" />
     <title>IMC</title>
-</head>
+  </head>
 
-<body>
-    <div class="titulo">Cálculo de IMC</div>
-    <input id="input-altura" class="input-text" type="text" placeholder="Altura" />
-    <input id="input-peso" class="input-text" type="text" placeholder="Peso" />
-    <input id="input-sexo" class="input-text" type="text"  placeholder="Sexo" />
+  <body>
+  <main class="container">
+    <h1 class="titulo">Cálculo de IMC</h1>
+     
+    <input
+      id="input-altura"
+      class="input-text"
+      type="text"
+      placeholder="Altura"
+    />
+    <input
+      id="input-peso"
+      class="input-text"
+      type="text"
+      placeholder="Peso"
+    />
+    <input
+      id="input-sexo"
+      class="input-text"
+      type="text"
+      placeholder="Sexo"
+    />
     <div class="mais65anos">
-        <input id="input-mais65anos" class="checkbox" type="checkbox" />
-        <label for="input-mais65anos">Eu tenho 65 anos ou mais</label>
+      <input id="input-mais65anos" class="checkbox" type="checkbox" />
+      <label for="input-mais65anos">Eu tenho 65 anos ou mais</label>
     </div>
     <button id="btn-calcular" class="btn1">
-        <span>Calcular meu IMC</span>
+      <span>Calcular meu IMC</span>
     </button>
     <button id="btn-entenda" class="btn2">
-        <span>Entenda o cálculo</span>
+      <span>Entenda o cálculo</span>
     </button>
-</body>
-
+  </main>
+     
+  
+  </body>
 </html>
