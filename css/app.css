@@ -1,5 +1,5 @@
 body {
-    font-family: "Inter", sans-serif !important;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-variation-settings: "slnt" 0;
@@ -21,6 +21,7 @@ body {
   }
 
 .input-text {
+    color: #BDBDBD;
     background-color: #F6F6F6;
     border: 1px solid #E8E8E8;
     padding: 0.7rem;
@@ -31,6 +32,7 @@ body {
     font-size: 0.875rem;
     color: #666666;
 }
+
 
 .btn {
     border-radius: 2rem;
