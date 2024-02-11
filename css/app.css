@@ -13,6 +13,13 @@
 --color-font:#000000;
 
 }
+
+/* Reset de estilos para garantir uma aparência mais consistente entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: var(--font-primaria);
   font-size: 16px;
@@ -25,8 +32,33 @@ body {
   align-items: center; /* Centraliza os elementos horizontalmente */
   text-align: center; /* Centraliza o texto */
   background-color: var(--cor-body);
-  
+  color: var( --color-font);
+  box-sizing: border-box;
 }
+
+.cabecalho {
+  padding: 2% 0% 1% 15%;
+  background-color: var(--cor-gray03);
+}
+
+.cabecalho__menu {
+  display: flex;
+  gap: 80px;
+  justify-content: right; /* Alinha os itens à direita */
+}
+.cabecalho__menu__link {
+  font-family: var(--font-secudaria);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--cor-secundaria);
+  text-decoration: none;
+
+}
+
+.cabecalho__menu__link:hover {
+  background-color: var(--cor-hover); /* Altera a cor ao passar o mouse */
+}
+
 .container{
   display: flex;
   flex-direction: column;
@@ -81,6 +113,19 @@ body {
   background-color: var(--cor-hover); /* Altera a cor de fundo ao passar o mouse */
   border-color: var(--cor-hover); /* Altera a cor da borda ao passar o mouse */
   cursor: pointer; /* Altera o cursor para a mão quando passar o mouse */
+}
+
+.imagem-header {
+  display: flex;
+  justify-content: center;  
+  align-items: center; 
+  border: 3px solid var(--cor-button);
+   
+}
+
+.imagem-header .logo-header img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+  border-radius: 10px;
 }
 
 
