@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1.25rem;
+    margin-bottom: 20px;
 }
 
 .imagem .logo img {
@@ -11,42 +11,44 @@
 
 .imagem .logo {
     width: 30%;
-    border-radius: 1.875rem;
+    border-radius: 10px;
     border: 3px solid var(--cor-button);
     margin: 0 auto; /* Adiciona margin auto para centralizar */
 }
 
 .titulo {
-    font-size: 1.875rem;
-    margin-bottom: 1.25rem; /* Adiciona um espaço abaixo do título */
+    font-size: 1.5rem;
+    margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
+
 }
 
 .input-text-history {
     width: 100%;
-    height: 2.5rem;
+    height: 40px;
     border: 1px solid var(--cor-gray02);
     outline: none;
-    border-radius: 1.25rem;
+    border-radius: 20px;
     background-color: var(--cor-gray01);
-    padding: 0 0.625rem;
-    margin-bottom: 1.25rem;
+    padding: 0 10px;
+    margin-bottom: 20px;
     border: 2px solid var(--cor-gray01);
 
 }
 
 .input-text-history::placeholder {
     color: var(--cor-gray02);
+
 }
 
 .history {
-    padding: 0.625rem;
+    padding: 10px;
 
 
 }
 
 .card {
     display: flex;
-    margin-top: 1.25rem;
+    margin-top: 20px;
 
 }
 
@@ -54,7 +56,7 @@
     width: 20%;
     display: flex;
     flex-direction: column;
-    padding: 0.5rem;
+    padding: 8px;
 
 }
 
@@ -67,16 +69,16 @@
 }
 
 .card-history .history-log {
-    border-radius: 0.625rem;
+    border-radius: 10px;
     background-color: var(--cor-gray01);
-    width: 3.125rem;
-    height: 3.125rem;
+    width: 50px;
+    height: 50px;
 
 }
 
 .card-history-head {
     display: flex;
-    margin: 0.1875rem 0;
+    margin: 3px 0px;
 
 }
 
@@ -89,7 +91,7 @@
 }
 
 .card-history-head .time-history {
-    padding: 0 0.3125rem;
+    padding: 0px 5px;
     text-align: end;
 
 
@@ -97,16 +99,22 @@
 
 .text-history {
     font-size: 13px;
-    margin: 3px 0;
-    margin-bottom: 0.625rem;
+    margin: 3px 0px;
+    margin-bottom: 10px;
     text-align: left;
     color: var( --color-font);
 
 }
+.custom-icon-verde{
+    color: green;
+  }
 
+.custom-icon-vermelho{
+    color: red;
+}
 @media screen and (max-width: 768px) {
     .container {
-        padding: 0 0.625rem;
+        padding: 0 10px;
     }
 
     .imagem .logo {
@@ -121,11 +129,4 @@
 }
 
 
-.custom-icon-verde{
-    color: green;
-  }
-
-.custom-icon-vermelho{
-    color: red;
-}
 
