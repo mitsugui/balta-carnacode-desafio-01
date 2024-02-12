@@ -44,8 +44,8 @@ body {
   padding: 1rem;
   align-items: center; /* Centraliza os elementos horizontalmente */
   text-align: center; /* Centraliza o texto */
-
 }
+
 .titulo {
   font-size: 1.875rem;
   font-weight: 600;
@@ -53,41 +53,42 @@ body {
   margin: 1.25rem;
 }
 
-.input-text{
-  color: var(--cor-gray02);
+.input-text {
   background-color: var(--cor-gray03);
   border: 2px solid var(--cor-gray01);
   padding: 0.7rem;
+  box-sizing: border-box;
   border-radius: 0.4rem;
 }
-.input-text-pesquisar{
 
-  border-radius: 0.9rem;
-
+.input-text::placeholder {
+  color: var(--cor-gray02);
 }
+
 .mais65anos {
+  align-self: flex-start;
   font-size: 0.875rem;
   color: #666666;
 }
 
-.btn1 {
+.btn {
   font-weight: 700;
   border-radius: 2rem;
   padding: 0.7rem;
+}
+
+.main-btn {
   background-color: var(--cor-button);
   border: 2px solid var(--cor-button); /* Adiciona borda com a mesma cor de fundo */
 }
 
-.btn2 {
-  font-weight: 700;
-  border-radius: 2rem;
-  padding: 0.7rem;
+.secundary-btn {
   background-color: #FFFFFF;
   border-style: solid;
   border-color: var(--cor-button);
 }
-.btn1:hover,
-.btn2:hover {
+
+.btn:hover {
   background-color: var(--cor-hover); /* Altera a cor de fundo ao passar o mouse */
   border-color: var(--cor-hover); /* Altera a cor da borda ao passar o mouse */
   cursor: pointer; /* Altera o cursor para a mão quando passar o mouse */
@@ -104,21 +105,4 @@ body {
 .imagem-header .logo-header img {
   max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
   border-radius: 10px;
-}
-
-
-/* Media query para telas menores */
-@media screen and (max-width: 600px) {
-  .titulo {
-    font-size: 1.5rem;
-  }
-
-  .input-text {
-    width: 100%;
-  }
-
-  .btn1,
-  .btn2 {
-    width: 100%;
-  }
 }
