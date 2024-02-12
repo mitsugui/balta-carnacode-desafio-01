@@ -1,52 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/app.css">
-    <title>Histórico</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css" />
+  <!-- Fonte Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-xxxxxx" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/f4665dce64.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/vars.css" />
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/history.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+
+  <title>Histórico</title>
 </head>
+
 <body>
-    <div style="width: 100%; height: 100%; position: relative; background: white">
-        <div style="width: 343px; height: 36px; padding-left: 107px; padding-right: 104px; left: 16px; top: 176px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
-            <div style="text-align: center; color: black; font-size: 30px; font-family: Inter; font-weight: 600; word-wrap: break-word">Histórico</div>
-        </div>
-        <div style="width: 343px; height: 50px; left: 16px; top: 233px; position: absolute">
-            <div style="width: 343px; height: 50px; left: 0px; top: 0px; position: absolute; background: #F6F6F6; border-radius: 100px; border: 1px #E8E8E8 solid"></div>
-            <div style="left: 16px; top: 16px; position: absolute; color: #BDBDBD; font-size: 16px; font-family: Inter; font-weight: 500; word-wrap: break-word">Pesquisar...</div>
-        </div>
-        <div style="width: 343px; height: 170px; left: 16px; top: 304px; position: absolute">
-            <div style="width: 343px; height: 77px; left: 0px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-                <div style="width: 50px; height: 50px; background: #F6F6F6; border-radius: 8px"></div>
-                <div style="color: black; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word">Peso ideal ✅</div>
-                <div style="text-align: right; color: #522020; font-size: 14px; font-family: Inter; font-weight: 400; word-wrap: break-word">8m atrás</div>
-                <div style="width: 269px; color: black; font-size: 14px; font-family: Inter; font-weight: 400; word-wrap: break-word">Parabéns, você está no seu peso ideal, continue mantendo este estilo!</div>
-                <div style="width: 277px; height: 0px; border: 1px #E8E8E8 solid"></div>
-            </div>
-            <div style="width: 343px; height: 77px; left: 0px; top: 93px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
-                <div style="width: 50px; height: 50px; background: #F6F6F6; border-radius: 8px"></div>
-                <div style="color: black; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word">Sobrepeso ⛔️</div>
-                <div style="text-align: right; color: #BDBDBD; font-size: 14px; font-family: Inter; font-weight: 400; word-wrap: break-word">12/10/2023</div>
-                <div style="width: 269px; color: black; font-size: 14px; font-family: Inter; font-weight: 400; word-wrap: break-word">Estamos quase lá! Faça alguns ajustes para ficar no peso ideal!</div>
-                <div style="width: 277px; height: 0px; border: 1px #E8E8E8 solid"></div>
-            </div>
-        </div>
-        <div style="width: 95px; height: 95px; left: 141px; top: 62px; position: absolute">
-            <div style="width: 95px; height: 95px; left: 0px; top: 0px; position: absolute; background: white"></div>
-            <div style="width: 95px; height: 95px; left: 0px; top: 0px; position: absolute; background: #45FEFE"></div>
-            <div style="width: 44.93px; height: 44.93px; left: 26.18px; top: 24.27px; position: absolute; background: white"></div>
-            <img style="width: 70.82px; height: 70.82px; left: 12.09px; top: 12.09px; position: absolute" src=".\assets\icon-no-bg.png" />
-            <div style="width: 10.28px; height: 11.42px; left: 53.78px; top: 52.64px; position: absolute; background: white"></div>
-            <div style="width: 11.34px; height: 12.40px; left: 53.29px; top: 52.15px; position: absolute; background: white"></div>
-            <div style="width: 11.99px; height: 10.85px; left: 38.36px; top: 53.21px; position: absolute; background: white"></div>
-            <div style="width: 12.97px; height: 11.83px; left: 37.87px; top: 52.72px; position: absolute; background: white"></div>
-            <div style="width: 2.28px; height: 10.85px; left: 32.08px; top: 53.21px; position: absolute; background: white"></div>
-            <div style="width: 3.26px; height: 11.83px; left: 31.59px; top: 52.72px; position: absolute; background: white"></div>
-        </div>
+  <header class="cabecalho">
+    <nav class="cabecalho__menu">
+
+      <a class="cabecalho__menu__link" href="index.html">ICM</a>
+      <a class="cabecalho__menu__link" href="history.html">Historico</a>
+
+    </nav>
+  </header>
+  <main class="container">
+    <div class="imagem">
+      <div class="logo">
+        <img src="./assets/icon-no-bg.png" alt="Logo da aplicação">
+      </div>
     </div>
+    <h1 class="titulo">Histórico</h1>
+    <div class="history">
+      <input type="text" class="input-text-history" placeholder="Pesquisar...">
+      <div class="card">
+        <div class="card-history">
+          <div class="history-log"></div>
+        </div>
+        <div class="card-history-content">
+          <div class="card-history-head">
+            <div class="title">Peso ideal <i class="custom-icon-verde fa-solid fa-square-check"></i></div>
+            <div class="time-history">8m atrás</div>
+          </div>
+          <div class="text-history">
+            <p>Parabéns, você está no seu peso ideal, continue mantendo este estilo!</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-history">
+          <div class="history-log"></div>
+        </div>
+        <div class="card-history-content">
+          <div class="card-history-head">
+            <div class="title">Sobrepeso <i class="custom-icon-vermelho fa-solid fa-circle-minus"></i></div>
+            <div class="time-history">12/10/2023</div>
+          </div>
+          <div class="text-history">
+            <p>Estamos quase lá! Faça alguns ajustes para ficar no peso ideal!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
+
 </html>
