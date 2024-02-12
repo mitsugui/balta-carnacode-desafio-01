@@ -22,3 +22,6 @@ Neste primeiro desafio, desenvolvemos todo a parte de HTML e CSS da aplicação 
 
  ###  Grupo 01
 * [Eliane Henriqueta](https://github.com/Elianehenri)
+* [Pablo Alessandre](https://github.com/pabloalessandre)
+* [Gabriele Felice](https://github.com/gabi-felice-dev)
+* [Julio](https://github.com/mitsugui)
