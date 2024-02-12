@@ -11,15 +11,14 @@
 
 .imagem .logo {
     width: 30%;
-    border-radius: 10px;
+    border-radius: 30px;
     border: 3px solid var(--cor-button);
     margin: 0 auto; /* Adiciona margin auto para centralizar */
 }
 
 .titulo {
-    font-size: 1.5rem;
+    font-size: 1.875rem;
     margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
-
 }
 
 .input-text-history {
