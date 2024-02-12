@@ -1,59 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="css/app.css" />
-    <title>IMC</title>
-  </head>
 
-  <body>
-    <header class="cabecalho">
-      <nav class="cabecalho__menu">
-     
-        <a class="cabecalho__menu__link" href="home.html">Home</a>
-        <a class="cabecalho__menu__link" href="history.html">Historico</a>
-       
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <!-- Fonte Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
+  <link rel="stylesheet" href="css/vars.css" />
+  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/media-queries.css">
+
+  <title>IMC</title>
+</head>
+
+<body class="imc">
+  <header class="cabecalho">
+    <nav class="cabecalho__menu">
+
+      <a class="cabecalho__menu__link" href="home.html">Home</a>
+      <a class="cabecalho__menu__link" href="history.html">Historico</a>
+
+    </nav>
+  </header>
 
   <main class="container">
     <h1 class="titulo">Cálculo de IMC</h1>
-     
-    <input
-      id="input-altura"
-      class="input-text"
-      type="text"
-      placeholder="Altura"
-    />
-    <input
-      id="input-peso"
-      class="input-text"
-      type="text"
-      placeholder="Peso"
-    />
-    <input
-      id="input-sexo"
-      class="input-text"
-      type="text"
-      placeholder="Sexo"
-    />
+
+    <input id="input-altura" class="input-text" type="text" placeholder="Altura" />
+    <input id="input-peso" class="input-text" type="text" placeholder="Peso" />
+    <input id="input-sexo" class="input-text" type="text" placeholder="Sexo" />
     <div class="mais65anos">
       <input id="input-mais65anos" class="checkbox" type="checkbox" />
       <label for="input-mais65anos">Eu tenho 65 anos ou mais</label>
     </div>
-    <button id="btn-calcular" class="btn1">
+    <button id="btn-calcular" class="btn main-btn">
       <span>Calcular meu IMC</span>
     </button>
-    <button id="btn-entenda" class="btn2">
+    <button id="btn-entenda" class="btn secundary-btn">
       <span>Entenda o cálculo</span>
     </button>
   </main>
-     
-  
-  </body>
+</body>
+
 </html>

@@ -16,3 +16,19 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .history .container {
+        padding: 0 0.625rem;
+    }
+
+    .imagem .logo {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .imagem .logo {
+        width: 70%;
+    }
+}
