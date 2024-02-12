@@ -21,7 +21,7 @@ body {
 
 .cabecalho__menu {
   display: flex;
-  gap: 80px;
+  gap: 5rem;
   justify-content: right; /* Alinha os itens à direita */
 }
 
@@ -103,5 +103,5 @@ body {
 
 .imagem-header .logo-header img {
   max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
